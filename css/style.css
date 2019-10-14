@@ -55,12 +55,17 @@ i{
 .wrapper section{
 	display: grid;
 	grid-template-columns:1fr 1fr 1fr;
-	grid-column-gap:1.5em;
-	grid-row-gap:1.5em;
+	grid-column-gap:30px;
+	grid-row-gap:30px;
+}
+@media screen and (min-width: 300px){
+	.wrapper section{
+		grid-template-columns:1fr;
+	}
 }
 article{
 	display: grid;
-	border: 1px solid #f0f0f0;
+	border: 1px solid #d1cfcb;
 	padding: 10px 0;
 	justify-items:center;
 }
