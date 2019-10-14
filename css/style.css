@@ -52,8 +52,8 @@ i{
 .wrapper section{
 	display: grid;
 	grid-template-columns:1fr 1fr 1fr;
-	grid-column-gap:20px;
-	grid-row-gap:20px;
+	grid-column-gap:1.5em;
+	grid-row-gap:1.5em;
 }
 article{
 	display: grid;
